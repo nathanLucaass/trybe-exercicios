@@ -1,7 +1,6 @@
 <style>
     h1 {
-        font-family: Arial, Helvetica, sans-serif; 
-        text-align: center;
+        font-family: sans-serif; 
 }
     
     body {
@@ -23,7 +22,18 @@ font-weight: 500;
 
 h2{
     text-align: center;
+
 }
 
+#foto {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 50px;
+}
+
+#meu-nome{
+    text-align: center;
+}
 
 </style>
