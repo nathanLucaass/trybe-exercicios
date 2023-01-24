@@ -83,7 +83,7 @@ switch (peça) {
 }
 
 //Sexto Exercicio
-let porcentagem = 75
+let porcentagem;
 if(porcentagem >= 90){
     console.log('A')
 }
@@ -101,4 +101,52 @@ else if(porcentagem >= 50){
 }
 else{
     console.log('F')
+
+}
+
+//Há um par entre nós
+
+//Primeiro Exercicio
+const i = 2;
+const k = 4;
+const l = 5;
+if((i % 2) === 0){
+    console.log(true);
+}
+else if((k % 2) === 0){
+    console.log(true);
+}
+else if((i % 2) === 0){
+    console.log(true);
+}
+else{
+    console.log(false);
+}
+
+//Segundo Exercicio
+if((i % 2) !== 0){
+    console.log(true);
+}
+else if((k % 2) !== 0){
+    console.log(true);
+}
+else if((i % 2) !== 0){
+    console.log(true);
+}
+else{
+    console.log(false);
+}
+
+//Terceiro Exercicio
+
+const custo = 100
+const valorVenda = 150
+const impostoSobreCusto = 0.2;
+if (custo < 0 || valorVenda < 0){
+    console.log('Valor de entrada menor que zero')
+}else{
+    const valorCustoTotal = custo + (custo * impostoSobreCusto);
+    const lucroPorProduto = valorVenda - valorCustoTotal;
+    const lucroTotal = lucroPorProduto * 1000;
+    console.log(lucroTotal)
 }
