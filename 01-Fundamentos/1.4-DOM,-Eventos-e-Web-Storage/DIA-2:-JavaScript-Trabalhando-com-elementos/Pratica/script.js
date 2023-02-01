@@ -1,6 +1,7 @@
 //Primeiro Requisito
 let trybeTrip = document.createElement('h1');
 trybeTrip.innerHTML = 'TrybeTrip - Agência de Viagens'
+trybeTrip.classList.add('title');
 document.body.appendChild(trybeTrip);
 
 //Segundo Requisito
@@ -12,6 +13,7 @@ document.body.appendChild(main)
 //Terceiro Requisito
 let section = document.createElement('section');
 section.classList.add('center-content');
+main.style.backgroundColor = 'green';
 main.appendChild(section);
 
 //Quarto Requisito
@@ -27,6 +29,7 @@ main.appendChild(section2);
 //Sexto Requisito 
 let section3 = document.createElement('section');
 section.classList.add('right-content');
+section3.style.marginRight = auto;
 main.appendChild(section3);
 
 //Setimo Requisito
@@ -50,10 +53,16 @@ section3.appendChild(listaSOrdem)
 
 //Nono Requisito
 let h31 = document.createElement('h3');
+h31.classList.add('description');
 main.appendChild(h31);
 
 let h32 = document.createElement('h3');
 main.appendChild(h32);
+h32.classList.add('description');
 
 let h33 = document.createElement('h3');
 main.appendChild(h33);
+h33.classList.add('description');
+
+main.removeChild('left-content');
+
