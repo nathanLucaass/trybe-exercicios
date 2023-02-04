@@ -1,13 +1,17 @@
 window.onload = () => {
     const peoma = document.getElementById('poema')
+    
     const backgroundColor = localStorage.getItem('backgroundColor')
-    peoma.style.backgroundColor = backgroundColor
+    peoma.style.backgroundColor = backgroundColor;
+
     const color = localStorage.getItem('color');
     peoma.style.color = color;
+
     const fontSize = localStorage.getItem('fontSize');
-    peoma.style.fontSize = fontSize
+    peoma.style.fontSize = fontSize;
+
     const spacing = localStorage.getItem('spacing');
-    peoma.style.lineHeight = spacing
+    peoma.style.lineHeight = spacing;
 }
 
 
