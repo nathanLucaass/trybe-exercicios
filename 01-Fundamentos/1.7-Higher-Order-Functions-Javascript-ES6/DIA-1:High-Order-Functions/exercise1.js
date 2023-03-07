@@ -105,3 +105,5 @@ console.log(everyoneWasBornOnSecXX(books));
 //Quinto Requisito
 const someBookWasReleaseOnThe80s = (array) => array.some((element) => element.releaseYear < 1991 && element.releaseYear > 1979);
 console.log(someBookWasReleaseOnThe80s(books));
+
+//Rever
