@@ -5,21 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Validador</title>
     <link rel="stylesheet" href="src/style.css">
 </head>
 
 <body>
-    <h1 id="titulo">Validador de Campos</h1>
     <main>
-        <form action="" method="GET">
+        <h1 id="titulo">Validador de Campos</h1>
+        <form action="" method="GET" id="form">
             <input type="text" id="objTest">
-            <select name="document" id="selecionado">
-                <option value="Email">Email</option>
-                <option value="CreditCard">CreditCard</option>
-                <option value="Currency">Currency</option>
-            </select>
-            <button id="button" type="submit">Validar</button>
+            <div>
+                <select name="document" id="selecionado">
+                    <option value="Email">Email</option>
+                    <option value="CreditCard">CreditCard</option>
+                    <option value="Empty">Empty</option>
+                    <option value="Boolean">Boolean</option>
+                </select>
+                <button id="button" type="submit">Validar</button>
+            </div>
         </form>
         <h2 id="result">Digite o valor, escolha a opção e clique em validar</h2>
     </main>
