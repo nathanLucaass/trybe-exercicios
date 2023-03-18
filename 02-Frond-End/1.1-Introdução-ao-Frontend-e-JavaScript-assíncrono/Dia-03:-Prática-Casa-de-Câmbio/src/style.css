@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+header{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+
+}
+input{
+    border-radius: 10px;
+    size: 30px;
+    border: 0 none;
+    background-color: #D9D9D91A;
+    width: 171px;
+    height: 48px;
+    font-size: large;
+    text-align: center;
+    color: white;
+}
+button{
+    border: 0 none;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 171px;
+    height: 48px;
+    margin-left: 10px;
+    background-color: #95EBA8;
+    color: #373737;
+    font-weight: 700px;
+    font-size: 20px;
+    line-height: 26px;
+
+    
+}
+label{
+    font-size: 15px;
+    font-weight: 400px;
+    line-height: 15px;
+    margin-bottom: 5px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+   
+}
+#caixa{
+    background-color: #FFFFFF0F;
+    width: 900px;
+    height: 583px;
+    background-color: #ffffff41;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#coluna{
+    display: flex;
+    flex-direction: column;
+}
