@@ -1,5 +1,5 @@
-const button = document.getElementById('button')
-const name = document.getElementById('name')
+const button = document.getElementById('button');
+const name = document.getElementById('name');
 const img = document.getElementById('img');
 const generateID = () => Math.floor(Math.random() * 731) + 1;
 button.addEventListener('click', async () =>{
