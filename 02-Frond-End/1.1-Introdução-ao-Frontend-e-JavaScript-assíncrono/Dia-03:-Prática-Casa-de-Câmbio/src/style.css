@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color:#0c0505;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
 }
@@ -61,8 +61,46 @@ form{
     background-color: #ffffff41;
     border-radius: 5px;
     margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    overflow-y: auto;
+    align-items: center;
+    justify-content: center;
+
 }
 #coluna{
     display: flex;
     flex-direction: column;
+}
+.coin{
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: #00000033;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 5px;
+    width: 150px;
+    height: 44px;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+  border-radius: 3px;
 }
