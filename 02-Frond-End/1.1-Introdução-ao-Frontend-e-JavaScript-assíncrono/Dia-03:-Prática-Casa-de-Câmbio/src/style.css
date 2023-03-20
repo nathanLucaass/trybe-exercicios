@@ -54,10 +54,9 @@ form{
     margin-bottom: 15px;
 }
 #caixa{
-    background-color: #FFFFFF0F;
     width: 900px;
     height: 583px;
-    background-color: #ffffff41;
+    background-color: #35393F;
     border-radius: 10px;
     margin-top: 10px;
     display: flex;
@@ -66,7 +65,6 @@ form{
     align-items: center;
     justify-content: center;
     max-width: 100%;
-
 }
 #coluna{
     display: flex;
@@ -111,4 +109,17 @@ span{
 }
 #valor{
     color: #FFE713;
+}
+
+#allCurrency{
+    background-color:#35393F;
+    width: 900px;
+    height: 583px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
 }
