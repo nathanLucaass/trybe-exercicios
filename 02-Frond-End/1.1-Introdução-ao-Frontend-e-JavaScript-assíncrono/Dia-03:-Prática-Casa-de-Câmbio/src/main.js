@@ -32,7 +32,7 @@ button.addEventListener('click', async () => {
         Object.entries(moedas).forEach(([key, value]) => {
             const coin = document.createElement('div');
             coin.classList.add('coin');
-            coin.innerHTML = `&nbsp;  🪙 &nbsp; ${key}: &nbsp; <span id="valor">${value.toFixed(2)}</span>`
+            coin.innerHTML = `&nbsp;🪙 ${key}: &nbsp; <span id="valor">${value.toFixed(2)}</span>`
             quadrado.appendChild(coin);
         });
     }
