@@ -38,9 +38,7 @@ button{
     color: #373737;
     font-weight: 700px;
     font-size: 20px;
-    line-height: 26px;
-
-    
+    line-height: 26px;   
 }
 label{
     font-size: 15px;
@@ -52,7 +50,8 @@ form{
     display: flex;
     justify-content: center;
     align-items: flex-end; 
-   
+    margin-top: -50px;
+    margin-bottom: 15px;
 }
 #caixa{
     background-color: #FFFFFF0F;
@@ -83,13 +82,10 @@ form{
     border-radius: 5px;
     width: 150px;
     height: 44px;
-    text-align: center;
     display: flex;
-    align-content: center;
-    text-align: center;
     align-items: center;
     align-content: center;
-    justify-content: center;
+    flex-direction: row;
 }
 ::-webkit-scrollbar {
   width: 6px;
@@ -107,6 +103,8 @@ form{
 }
 h1{
     font-size: 75px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 span{
     color: #95EBA8;
