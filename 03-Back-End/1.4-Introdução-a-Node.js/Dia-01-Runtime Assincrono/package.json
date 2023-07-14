@@ -2,10 +2,13 @@
   "name": "dia-01-runtime-assincrono",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "bmi.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
